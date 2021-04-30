@@ -1,5 +1,8 @@
 /* navbar */
-
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 #navbar{
     flex-direction: column;
 }
@@ -15,7 +18,7 @@
     height: 700px;
 }
 .home::before{
-    width:700px;
+    width:100%;
     height: 700px;
 }
 .home p{
